@@ -56,14 +56,13 @@ body{
  .dessert h1{
   font-weight: 600;
   font-size: 20px;
-  margin-left:150px ;
+  margin-left:70px ;
   margin-bottom: 20px;
 }
 /*container with all 9 items*/
 .items{
     display: grid;
     grid-template-columns:20vw 20vw 20vw ;
-    
     place-items:center ;
     grid-auto-rows:35vh ;
   
@@ -101,7 +100,7 @@ body{
 }
 /*container with the ordercontainer*/
 .orderInfo{
-  background-color:white;
+  background-color:whitesmoke;
   border:0.5px white ;
   border-radius:10px;
   height:60vh;
@@ -111,7 +110,7 @@ body{
   flex-direction: column;
   flex-grow: 3;
   border-radius:9px ;
-  border:1px solid hsl(14, 86%, 42%);
+  /* border:1px solid hsl(14, 86%, 42%); */
  gap:1em;
 }
 .orderInfo h1{
@@ -130,7 +129,7 @@ border-style: none;
 margin-top:3px ;
 margin-left: 5px;
 width:90%;
-height:13%;
+height:15%;
 color: aliceblue;
 }
 /*neutral container*/
@@ -142,6 +141,7 @@ color: aliceblue;
   justify-content: center;
   align-items: center;
   margin-left:5px ;
+  width: 90%;
   height:15%;
   border-radius:10px ;
 }
@@ -149,10 +149,10 @@ color: aliceblue;
 .increment-button,.decrement-button{
   height: 20px;
   width: 28px;
-  border-color:cadetblue;
+  border-color:rgb(248, 224, 203);
   border-style: double;
   border-radius: 4px;
-  background-color:hsl(14, 86%, 52%);
+  background-color:hsl(14, 93%, 45%);
 }
 /* the class with 0 value */
 .quantity-display{
