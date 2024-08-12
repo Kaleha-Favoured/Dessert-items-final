@@ -7,7 +7,7 @@
 - Rose 50: hsl(20, 50%, 98%)
 - Rose 100: hsl(13, 31%, 94%)
 - Rose 300: hsl(14, 25%, 72%)
-- Rose 400: hsl(7, 20%, 60%)
+- Rose 400: hsl(7, 20%, 60%)  ^^ used in the body section
 - Rose 500: hsl(12, 20%, 44%)
 - Rose 900: hsl(14, 65%, 9%)
 
@@ -29,8 +29,8 @@ body{
   width: 100vw;
   height:100vh;
   background-color:
-hsl(7, 20%, 60%)
-  
+  /* hsl(43%, 86%, 81%) */
+  rgb(248, 224, 203)
   ;
   color:black;
   font-family:"Poppins",sans-serif;
@@ -120,6 +120,7 @@ hsl(7, 20%, 60%)
   color:hsl(14, 86%, 42%);
   margin-left:5px;
 }
+/* the confirm order button */
 #orderBtn{
   background-color:hsl(14, 86%, 42%)
   ;
@@ -144,15 +145,16 @@ color: aliceblue;
   height:15%;
   border-radius:10px ;
 }
+/* the + and _ buttons under the items div */
 .increment-button,.decrement-button{
   height: 20px;
   width: 28px;
   border-color:cadetblue;
   border-style: double;
   border-radius: 4px;
-  background-color: rgb(224, 175, 133);
+  background-color:hsl(14, 86%, 52%);
 }
-
+/* the class with 0 value */
 .quantity-display{
   font-size: 15px;
   font-weight: 600;
